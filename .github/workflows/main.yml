@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: 18
       - name: Instala as dependencias
-        run: sudo npm i
+        run: npm i
       - name: Roda o linter
-        run: sudo npm run lint
+        run: npm run lint
